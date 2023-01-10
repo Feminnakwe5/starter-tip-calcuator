@@ -22,3 +22,24 @@ const splitTotal = document.getElementById('split-total');
 const resetBtn = document.getElementById('reset');
 
 // ** Your work goes below here
+function tip5() {
+  let x = parseInt(bill);
+  let y = parseInt(people);
+  let tip = x * 0.05;
+  let eachTip = tip / y;
+  let eachTotal = (x + tip) / y;
+  splitTip.textContent = eachTip;
+  splitTotal.textContent = eachTotal;
+}
+function tip10() {
+  bill * 0.1;
+}
+function tip15() {
+  bill * 0.15;
+}
+function tip25() {
+  bill * 0.25;
+}
+function tip50() {
+  bill * 0.5;
+}
